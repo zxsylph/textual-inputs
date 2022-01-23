@@ -1,3 +1,15 @@
+[tool.poetry]
+name = "textual-inputs"
+version = "0.1.14"
+homepage = "https://github.com/sirfuzzalot/textual-inputs"
+description = "Text Input for Textual"
+authors = ["Tom Saunders"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+textual = {path = "../textual/dist/textual-0.1.14.tar.gz"}
+
 [build-system]
 requires = [
     "setuptools>=42",
